@@ -639,4 +639,3 @@ These appear in two places: the Contact section's `.soc-btn` buttons, and the Fo
 
 **Website design and development:** Jairaj R  
 **Club:** AstroCET — Astronomy Club, College of Engineering Trivandrum  
-**Established:** 2019
