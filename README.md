@@ -1,1 +1,1 @@
-# astrocet-website
+# AstroCET Website
