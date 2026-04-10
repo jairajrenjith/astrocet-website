@@ -1,0 +1,68 @@
+/* ── AstroCET 2025 — Design System ────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Clash+Display:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: none;
+  overflow-x: hidden;
+}
+
+@media (hover: none) { body { cursor: auto; } }
+
+/* ── CSS Variables ────────────────────────────────────────── */
+:root {
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  --bg:         #03010a;
+  --bg2:        #080414;
+  --nav-bg:     rgba(3, 1, 10, 0.85);
+  --card-bg:    rgba(255,255,255,0.035);
+  --card-hover: rgba(255,255,255,0.06);
+  --border:     rgba(255,255,255,0.07);
+  --border-glow:rgba(99,200,255,0.25);
+  --text:       #eef2ff;
+  --text-muted: #6875a0;
+  --text-dim:   #3d4568;
+
+  --cyan:       #3df5ff;
+  --cyan-dim:   rgba(61,245,255,0.12);
+  --cyan-glow:  rgba(61,245,255,0.3);
+  --violet:     #9b5de5;
+  --violet-dim: rgba(155,93,229,0.15);
+  --orange:     #ff6b35;
+  --orange-dim: rgba(255,107,53,0.12);
+
+  --accent:       var(--cyan);
+  --accent-glow:  var(--cyan-glow);
+  --accent-soft:  var(--cyan-dim);
+
+  --card-shadow: rgba(61,245,255,0.08);
+  --orb1: #1a0a4a;
+  --orb2: #0a2a4a;
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--violet); border-radius: 2px; }
+
+/* ── Selection ─────────────────────────────────────────────── */
+::selection { background: var(--violet); color: #fff; }
+
+/* ── Utility ───────────────────────────────────────────────── */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
