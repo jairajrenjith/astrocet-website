@@ -1,8 +1,9 @@
-# AstroCET — Official Website
+# AstroCET Website
 
 > The astronomy club website of the **College of Engineering Trivandrum (CET)**.  
 > Built with React + Vite. Single-page, fully responsive, no external component libraries.
-
+>
+> **Live site:** https://jrastrocet.vercel.app
 ---
 
 ## Table of Contents
